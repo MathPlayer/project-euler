@@ -5,14 +5,26 @@
 // https://github.com/MathPlayer/project-euler/blob/master/LICENSE
 //
 
-#ifndef SOLVE_HPP_
-#define SOLVE_HPP_
+#include "Solve.hpp"
 
 namespace ProjectEuler {
 
-int Solve001(int n);
-int Solve002(int n);
+int Solve002(int n) {
+  int a = 1;
+  int b = 2;
+  int c;
+  int result = 0;
+  do {
+    if (b % 2 == 0) {
+      result += b;
+    }
+
+    c = a + b;
+    a = b;
+    b = c;
+  } while (b < n);
+
+  return result;
+}
 
 };  // namespace ProjectEuler
-
-#endif  // SOLVE_HPP_

@@ -12,6 +12,7 @@ enable_testing()
 absolute_prefix_path(source_files .
   MainTest.cpp
   Test001.cpp
+  Test002.cpp
   )
 
 add_executable(solver-test ${source_files})

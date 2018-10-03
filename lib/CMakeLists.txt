@@ -11,6 +11,7 @@ absolute_prefix_path(include_files ""
 
 absolute_prefix_path(source_files ""
   Solve001.cpp
+  Solve002.cpp
   )
 
 add_library(solver ${source_files})
