@@ -13,6 +13,7 @@ absolute_prefix_path(source_files .
   MainTest.cpp
   Test001.cpp
   Test002.cpp
+  Test003.cpp
   )
 
 add_executable(solver-test ${source_files})

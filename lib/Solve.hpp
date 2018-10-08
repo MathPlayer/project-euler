@@ -8,10 +8,13 @@
 #ifndef SOLVE_HPP_
 #define SOLVE_HPP_
 
+#include <cstdint>
+
 namespace ProjectEuler {
 
 int Solve001(int n);
 int Solve002(int n);
+uint64_t Solve003(uint64_t n);
 
 };  // namespace ProjectEuler
 
